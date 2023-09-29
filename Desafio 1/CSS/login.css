@@ -1,0 +1,131 @@
+/* 
+    TAG (button, body, input)
+    
+    Classe (.titulo .grupo)
+
+    Id (#btn-entrar)
+
+    Selector (tudo junto e misturado(div.grupo>h1{  })
+    
+*/
+
+body{
+    /* background-color: #4cb5f9; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    
+}
+
+.caixa-login {
+    width: 25%;
+    height: auto;
+    border: 3px solid var(--cor-primaria);
+    padding: 30px 30px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+h1{
+    text-align: center;
+    color: var(--cor-primaria);
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+hr{
+    color: var(--cor-primaria);
+    margin-top: 10px;
+    border: 1px solid;
+    
+}
+
+label {
+    font-size: 15px;
+}
+
+input{
+    margin-top: 5px;    
+    padding: 9px;
+    width: 100%;
+    font-size:20px;
+    border-radius: 8px;
+    border: 1px solid;
+    outline: none;
+}
+input:hover{
+    border-radius: 8px;
+    border: 1px solid var(--cor-primaria);
+}
+
+button#btn-entrar {
+    padding: 8px;
+    width: 100%;
+    border-radius: 5px;
+    border: 0px solid #ddd;
+    outline: none;
+    font-size: 20px;
+
+
+}
+
+
+.grupo {
+    margin-top: 20px;
+
+}
+
+#btn-entrar {
+    margin-top: 20px;
+    background-color:var(--cor-primaria);
+    border: none;
+    color: #fff;
+    font-weight: 800px;
+    border-radius: 5px;
+}
+
+#btn-entrar:hover {
+    cursor: pointer;
+    background-color: var(--cor-secundaria);
+}
+
+#btn-cadastro {
+    width: 40%;
+    margin: auto;
+    background-color: var(--terceira-cor);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    line-height: 40px;
+    padding: 0 40px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#btn-cadastro:hover {
+    cursor: pointer;
+    background-color:var( --quarta-cor);
+}
+
+.recuperar-senha{
+    text-align: right;
+    margin-top: 10px;
+}
+
+.recuperar-senha > a{
+    color: var(--cor-primaria);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+img{
+    width: 960px;
+    padding: 0px 50px;    
+}
+
