@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai&family=Kanit:wght@300&family=Noto+Sans:wght@400;700&display=swap');
+
+:root{
+    /* --cor-primaria:#3369e1; */
+    --cor-primaria:#4cb5f9;
+    --cor-secundaria:#0036ae;
+    --terceira-cor:#3fad29;
+    --quarta-cor:#00ae21;
+    
+
+}
+
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Almarai', sans-serif;
+}
+
